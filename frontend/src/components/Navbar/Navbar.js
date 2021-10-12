@@ -27,6 +27,9 @@ const Navbar = () => {
 					<NavLink to="" ActiveStyle>
 						Services
 					</NavLink>
+					<NavLink to="" ActiveStyle>
+						Social Media
+					</NavLink>
 				</NavRightItems>
 			</NavRight>
 		</NavContainer>

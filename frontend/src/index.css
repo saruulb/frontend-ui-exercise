@@ -5,16 +5,86 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background-color: #011327;
+  background-color: #494953;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
-
+div {
+	display:block;
+}
 img {
 	width: 300px;
 	height: 80px;
 }
 
+.background {
+	background-size:cover;
+	background: url("./assets/droplets.jpg");
+	animation: move-background 300s infinite;
+  	display: block;
+
+}
+
+@keyframes move-background{
+
+50% {
+	    background-position: center;
+    }
+}
+.container {
+	width: 100%;
+	margin-left: auto;
+	margin-right: right;
+}
+
+.HomeContainer {
+	padding-top: 50px;
+	padding-bottom: 70px;
+}
+
+.container-row {
+	padding: 0;
+	flex-direction: row;
+	display: flex;
+	justify-content: space-around;
+}
+
+.text-column{
+	flex-direction: column;
+	justify-content: center;
+	display: flex;
+}
+
+.column-content {
+	max-height: 400px;
+	max-width: 600px;
+}
+
+.title-home {
+	font-size: 50px;
+	margin-top: 0;
+	margin-bottom: 37px;
+	color: #F5F9FC;
+}
+
+.subtext {
+	font-weight: 400;
+	font-size: 25px;
+	color: #FFFF;
+	margin-top: 0;
+	margin-bottom: 0;
+	padding-top: 10px;
+}
+
+.animationContainer {
+	width: 600px;
+	height: 400px;
+	mix-blend-mode:exclusion;
+}
+.testing {
+	width: 600px;
+	height: 400px;
+}
