@@ -88,3 +88,30 @@ img {
 	width: 600px;
 	height: 400px;
 }
+
+.aboutContainer {
+	background-color: #0c1e34;
+	align: center;
+	margin: auto;
+	width: 50%;
+	height: 30%;
+	padding-top: 70px;
+	padding-bottom: 100px;
+	padding-left: 130px;
+	padding-right: 120px;
+	border-radius: 50px;
+	color: white;
+}
+
+.aboutText p, h1 {
+    font-family: "Ginger Pro Demi", "sans-serif";
+    align:center;
+    padding: 10px;
+    text-align:center;
+}
+
+.aboutlogo {
+	margin:auto;
+	align:center;
+	display:block;
+}

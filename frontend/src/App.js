@@ -1,5 +1,6 @@
 import './App.css';
 import { BrowserRouter as Router} from 'react-router-dom';
+import About from "./components/about.js";
 import Navbar from "./components/Navbar/Navbar.js";
 import animationgirl from "./assets/animatedgirl.svg";
 
@@ -31,6 +32,7 @@ function App() {
 								</div>
 							</div>
 						</div>
+						<About/>
 					</div>
 				</div>
 		</Router>	
