@@ -291,3 +291,38 @@ img {
 	font-size: 15px;
 }
 
+#Footer {
+	display: block;
+}
+
+.FooterContainer {
+	padding-top:50px;
+	margin-right:auto;
+	margin-left: auto;
+	display:flex;
+
+}
+
+.FooterContent {
+	margin: auto;
+	font-size: 10px;
+	width:100%;
+	color:white;
+	padding-top:10px;
+	padding-bottom:10px;
+	background-color: #0c1e34;
+	border-top: 2px solid gray;
+	flex-direction:row;
+	justify-content:center;
+	display:flex;
+}
+
+.FooterLogo{
+	padding-left: 450px;
+
+}
+
+.FooterText {
+	width: 30%;
+}
+

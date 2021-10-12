@@ -4,6 +4,7 @@ import About from "./components/about.js";
 import Navbar from "./components/Navbar/Navbar.js";
 import Services from "./components/services.js";
 import Contact from "./components/contact.js";
+import Footer from "./components/footer.js";
 import animationgirl from "./assets/animatedgirl.svg";
 
 function App() {
@@ -37,6 +38,7 @@ function App() {
 						<About/>
 						<Services/>
 						<Contact/>
+						<Footer />
 					</div>
 				</div>
 		</Router>	

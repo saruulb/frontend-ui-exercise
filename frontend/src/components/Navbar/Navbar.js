@@ -15,20 +15,20 @@ const Navbar = () => {
 			</NavLeft>
 			<NavRight>
 				<NavRightItems>
-					<NavLink to="" ActiveStyle>
+					<NavLink to="#home" ActiveStyle>
 						Home
 					</NavLink>
-					<NavLink to="" ActiveStyle>
+					<NavLink to="#about" ActiveStyle>
 						About
 					</NavLink>
-					<NavLink to="" ActiveStyle>
+					<NavLink to="#Contact" ActiveStyle>
 						Contact 
 					</NavLink>
-					<NavLink to="" ActiveStyle>
+					<NavLink to="services" ActiveStyle>
 						Services
 					</NavLink>
-					<NavLink to="" ActiveStyle>
-						Social Media
+					<NavLink to="Blog" ActiveStyle>
+						Blog
 					</NavLink>
 				</NavRightItems>
 			</NavRight>
