@@ -188,3 +188,106 @@ img {
 	width:100%;
 	filter: brightness(0);
 }
+
+#Contact{
+	display:block;
+	padding-top: 150px;
+}
+
+.contactContainer{
+}
+
+.contactTextContainer{
+	margin: auto;
+	width: 50%;
+	background-color: #0c1e34;
+	padding-top: 15px;
+	padding-bottom: 50px;
+	border-radius: 25px;
+}
+
+.ContactSub{
+	width: 60%;
+	margin: auto;
+	text-align: center;
+}
+
+.ContactUs {
+	color:white;
+
+}
+
+.ContactSub{
+	color:white;
+}
+
+.ContactInput{
+	padding-top:50px;
+	width: 50%;
+	display:flex;
+	flex-direction:row;
+	margin:auto;
+
+}
+
+.ContactName {
+    font-size: 18px;
+    background-color: white;
+    border: none;
+    margin: auto;
+    color: black;
+    border-color: #0C1E34;
+    border-radius: 10px;
+    padding-top: 16px;
+    padding-bottom: 16px;
+    padding-left: 40px;
+
+}
+
+
+.ContactMail {
+    font-size: 18px;
+    background-color: white;
+    border: none;
+    margin: auto;
+    color: black;
+    border-color: #0C1E34;
+    border-radius: 10px;
+    padding-top: 16px;
+    padding-bottom: 16px;
+    padding-left: 10px;
+    }
+.ContactMessageContainer {
+	padding-top: 30px;
+	margin:auto;
+}
+
+.ContactMessage {
+	padding-top:20px;
+	display:block;
+	margin-left:auto;
+	margin-right:auto;
+	padding-top: 40px;
+	width: 42%;
+	border-radius: 10px;
+}
+
+.ButtonContainer{
+	display:flex;
+	padding-top: 20px;
+	justify-content: center;
+}
+.Button {
+	background: white;
+	color: black;
+	margin: auto;
+	text-align:center;
+	width: 40%;
+	border: none;
+	padding: 10px 20px;
+	margin: 5px;
+	border-radius: 10px;
+	text-decoration: none;
+	font-size: 15px;
+}
+

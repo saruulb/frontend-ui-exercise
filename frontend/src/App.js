@@ -3,6 +3,7 @@ import { BrowserRouter as Router} from 'react-router-dom';
 import About from "./components/about.js";
 import Navbar from "./components/Navbar/Navbar.js";
 import Services from "./components/services.js";
+import Contact from "./components/contact.js";
 import animationgirl from "./assets/animatedgirl.svg";
 
 function App() {
@@ -35,6 +36,7 @@ function App() {
 						</div>
 						<About/>
 						<Services/>
+						<Contact/>
 					</div>
 				</div>
 		</Router>	
