@@ -115,3 +115,76 @@ img {
 	align:center;
 	display:block;
 }
+
+.servicesContainer {
+	padding-top:100px;
+	display:flex;
+	flex-direction: row;
+	justify-content: space-around;
+	margin:auto;
+	height: 10%;
+}
+
+.GreaterContainer {
+	display: block;
+	padding-top: 150px;
+}
+
+.textservices {
+	margin-top: 150px;
+	background:white;
+	margin: auto;
+	width: 20%;
+	border-radius: 20px;
+	color: black;
+}
+
+.WebDesignContainer {
+	padding:20px;
+	display:flex;
+	width:120px;
+	flex-direction:column;
+	background-color:white;
+	border-radius: 15px;
+}
+
+
+.designclass {
+	width:120px;
+	filter: invert(1) brightness(0);
+
+}
+
+.webdevclass {
+	width:100%;
+	filter: brightness(0);
+}
+
+.WebDevelopmentContainer {
+	padding:20px;
+	display:flex;
+	width:120px;
+	flex-direction:column;
+	background-color:white;
+	border-radius: 15px;
+}
+
+.WebDevelopmentContainer h2{
+	align:center;
+	align-text:center;
+}
+
+
+.DigitalStrategyContainer {
+	padding:20px;
+	display:flex;
+	width:120px;
+	flex-direction:column;
+	background-color:white;
+	border-radius: 15px;
+}
+
+.digitalstrategy {
+	width:100%;
+	filter: brightness(0);
+}
