@@ -9,15 +9,15 @@ const Services = () => {
 				<div class="servicesContainer">
 					<div class= "WebDesignContainer">
 						<img src = {design} class="designclass" alt="class"/>
-						<h2> Design </h2>	
+						<h2 class = "DesignText" > Design </h2>	
 					</div>
 					<div class= "WebDevelopmentContainer">
-						<img src = {webdev} class="webdevclass" alt="qwbdev"/>
+						<img src = {webdev} class="webdevclass" alt="webdev"/>
 						<h2> Web Dev.</h2>	
 					</div>
 					<div class= "DigitalStrategyContainer">
 						<img src = {market} class="digitalstrategy" alt = "digital"/>
-						<h2>Marketing</h2>
+						<h2 class = "MarketText">Marketing</h2>
 					</div>
 				</div>
 			</section>

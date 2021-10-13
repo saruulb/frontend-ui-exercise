@@ -7,6 +7,7 @@ export const navb = styled.div`
 export const NavContainer = styled.div`
 	display: flex;
 	flex-direction:row;
+	background-color:#0c1e34;
 	padding: 20px 120px;
 	border-bottom: 2px solid gray;
 	bottom-border-width:2px;
