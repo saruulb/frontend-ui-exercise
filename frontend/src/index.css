@@ -91,7 +91,7 @@ img {
 	height: 400px;
 }
 
-.aboutContainer {
+#About{
 	background-color: #0c1e34;
 	align: center;
 	margin: auto;
@@ -127,7 +127,7 @@ img {
 	height: 10%;
 }
 
-.GreaterContainer {
+#Services {
 	display: block;
 	padding-top: 150px;
 }
@@ -328,3 +328,24 @@ img {
 	width: 30%;
 }
 
+.sectionlink {
+	padding-top: 20px;
+	padding-bottom: 20px;
+	text-decoration: none;
+	font-weight: 600;
+	text-decoration: none;
+	font-size: 18px;
+	color: white;
+	margin-top: auto;
+	margin-bottom: auto;
+	padding-left: 30px;
+	padding-right: 30px;
+	border-width: 2px;
+	border-color: transparent;
+	border-style: solid;
+	border-radius: 4px;
+}
+.sectionlink:hover{
+		transition: all 0.2s ease-in-out;
+		border: 2px solid white;
+		}

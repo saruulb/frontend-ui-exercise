@@ -3,7 +3,7 @@ import aboutlogo from "../assets/about.svg";
 
 const About = () => {
 	return (
-		<div class = "aboutContainer">
+		<section id = "About">
 			<div class = "aboutText">
 				<h1>About Us </h1>
 				<p>We’re an Australian team of award-winning and highly achieving web design and digital marketing professionals helping organisations to scale up their businesses online.</p>
@@ -12,7 +12,7 @@ const About = () => {
 				
 			</div>
 			<img src= {aboutlogo} class="aboutlogo" alt="aboutlogo"/>
-		</div>
+		</section>
 	)	
 	}
 

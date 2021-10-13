@@ -1,12 +1,11 @@
 import React from "react";
-import {navb, NavContainer, NavLeft, NavRight, NavRightItems, NavLink} from "./NavElements.js";
+import {NavContainer, NavLeft, NavRight, NavRightItems} from "./NavElements.js";
 import logo from "./../../assets/logo.svg";
 
 
 
 const Navbar = () => {
 	return(
-	<navb>
 		<NavContainer>
 			<NavLeft>
 				<logo>
@@ -15,26 +14,24 @@ const Navbar = () => {
 			</NavLeft>
 			<NavRight>
 				<NavRightItems>
-					<NavLink to="#home" ActiveStyle>
+					<a href="" class = "sectionlink">
 						Home
-					</NavLink>
-					<NavLink to="#about" ActiveStyle>
+					</a>
+					<a href="#About" class = "sectionlink">
 						About
-					</NavLink>
-					<NavLink to="#Contact" ActiveStyle>
+					</a>
+					<a href="#Contact" class = "sectionlink">
 						Contact 
-					</NavLink>
-					<NavLink to="services" ActiveStyle>
+					</a>
+					<a href="#Services" class = "sectionlink">
 						Services
-					</NavLink>
-					<NavLink to="Blog" ActiveStyle>
+					</a>
+					<a href= "" class = "sectionlink">
 						Blog
-					</NavLink>
+					</a>
 				</NavRightItems>
 			</NavRight>
 		</NavContainer>
-
-	</navb>
 	)
 }
 
